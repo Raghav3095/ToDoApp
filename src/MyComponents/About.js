@@ -11,7 +11,7 @@ export const About = () => {
 
             </div>
 
-            <div className="container">
+            <div className="container contact">
                 <div className="row">
                     <div className="col text-center">
                         <a target="_blank" href="https://github.com/Raghav3095" rel="noopener noreferrer" className="icon-link">
