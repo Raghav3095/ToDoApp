@@ -1,15 +1,16 @@
 import './App.css';
-import Header from './MyComponents/Header' // without curly brackets because made with rfc
+import Header from './MyComponents/Header'; // without curly brackets because made with rfc
 import { ToDo } from "./MyComponents/ToDo"; // inside curly brackets because made with rafc
 import { Footer } from "./MyComponents/Footer";
 import { AddToDo } from "./MyComponents/AddToDo";
-import { About } from './MyComponents/About'
+import { About } from './MyComponents/About';
 import React, { useState, useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+import "./MyComponents/fontawesome";
 
 function App() {
   let initTodo;
@@ -66,7 +67,7 @@ function App() {
     <>
       <Router>
         {/* passing the title property to the Header module */}
-        <Header title='My To-Do list Project' searchBar={false} />
+        <Header title='My To-Do list' searchBar={false} />
 
         {/* adding a 'router' to 'switch' to the selected sections */}
         <Switch>

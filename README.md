@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is my first complete build and it is a basic To-Do list app created using the ReactJS tutorial.
 
 The app uses Bootstrap CSS and JS components.
+
 ## Appendix
 
 The `My components` folder in the `src` folder contains the following components:
@@ -32,6 +33,16 @@ Defines the To-Do list section in the app.
 ### `ToDoElem.js`
 
 Defines functionality to display each element of the list.
+
+### `ModalAlert.js`
+
+Shows button to display modal alert when the list is empty.
+This has to be changed to not display the button and directly display the modal.
+
+### `fontawesome.js`
+
+Library created for icons from [Font Awesome](https://fontawesome.com/).
+
 ## Documentation
 
 Instructions on how to [deploy](https://create-react-app.dev/docs/deployment/) the app.
